@@ -1,0 +1,13 @@
+header {
+  margin-top: 0px;
+  padding-left: 2rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  background: -webkit-linear-gradient(left, #000717, #391128);
+}
+
+span {
+  color: white;
+  font-size: 1.2rem;
+}
