@@ -1,0 +1,14 @@
+<div class="form-group">
+  <h1>顔認識デモ</h1>
+  <form #uploadForm="ngForm">
+    <label for="file">ファイル選んで</label>
+    <input
+      type="file"
+      (change)="handleFileInput($event.target.files)"
+      required
+      accept="image/*"
+    />
+    <button (click)="onClick()" type="submit">送信</button>
+  </form>
+</div>
+<img *ngIf="imgURL" [src]="imgURL" />
